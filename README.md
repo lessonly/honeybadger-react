@@ -1,6 +1,5 @@
 # Honeybadger - React integration
 
-[![Build status](https://travis-ci.org/wuz/honeybadger-react.svg?branch=master)](https://travis-ci.org/wuz/honeybadger-react)
 [![NPM](https://img.shields.io/npm/v/honeybadger-react.svg)](https://npmjs.org/package/honeybadger-react)
 
 [![NPM](https://nodei.co/npm/honeybadger-react.png?compact=true)](https://npmjs.org/package/honeybadger-react)
@@ -48,8 +47,8 @@ See the [example](example) for more info.
 ## Support
 
 * Check out the Honeybadger [documentation](https://docs.honeybadger.io/lib/javascript/index.html)
-* [Search open and closed issues](https://github.com/wuz/honeybadger-react/issues?q=is%3Aissue) for similar problems
-* [Report a bug or request a feature](https://github.com/wuz/honeybadger-react/issues/new)
+* [Search open and closed issues](https://github.com/lessonly/honeybadger-react/issues?q=is%3Aissue) for similar problems
+* [Report a bug or request a feature](https://github.com/lessonly/honeybadger-react/issues/new)
 
 ## License
 
