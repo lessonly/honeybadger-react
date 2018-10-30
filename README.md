@@ -1,5 +1,6 @@
 # Honeybadger - React integration
 
+[ ![Codeship Status for lessonly/honeybadger-react](https://app.codeship.com/projects/8aebd4f0-bea3-0136-125f-728fb199655f/status?branch=master)](https://app.codeship.com/projects/313140)
 [![NPM](https://img.shields.io/npm/v/honeybadger-react.svg)](https://npmjs.org/package/honeybadger-react)
 
 [![NPM](https://nodei.co/npm/honeybadger-react.png?compact=true)](https://npmjs.org/package/honeybadger-react)
