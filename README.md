@@ -7,7 +7,7 @@
 
 A [honeybadger-js](https://github.com/honeybadger-io/honeybadger-js/) implementation for [React](https://reactjs.org/).
 
-This package provides a React [error boundary](https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html) from [Honeybadger.io](https://honeybadger.io). It allows for better
+This package provides a React [error boundary](https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html) from [Honeybadger.io](https://honeybadger.io). 
 
 ## Installation
 
