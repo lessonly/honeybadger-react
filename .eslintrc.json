@@ -1,0 +1,114 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended"
+  ],
+  "plugins": ["prettier", "jest"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "operator-linebreak": 0,
+    "no-param-reassign": 0,
+    "valid-jsdoc": 0,
+    "spaced-comment": 0,
+    "key-spacing": 0,
+    "padded-blocks": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-wrap-multilines": [
+      "error",
+      { "declaration": false, "assignment": false }
+    ],
+    "comma-dangle": [1, "always-multiline"],
+    "no-multi-spaces": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignorePattern": "^\\s*it.*$"
+      }
+    ],
+    "prefer-tempate": 0,
+    "react/jsx-boolean-value": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-eval": 0,
+    "curly": 0,
+    "react/destructuring-assignment": 0,
+    "react/sort-comp": 0,
+    "react/require-default-props": 0,
+    "react/prop-types": 0,
+    "react/no-danger": 0,
+    "react/no-children-prop": 0,
+    "react/no-array-index-key": 0,
+    "react/no-multi-comp": 0,
+    "react/no-unused-prop-types": 0,
+    "react/prefer-stateless-function": [
+      0,
+      {
+        "ignorePureComponents": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "import/extensions": 0,
+    "import/no-unresolved": [
+      2,
+      {
+        "ignore": ["~.+"]
+      }
+    ],
+    "arrow-parens": [1, "as-needed"],
+    "eol-last": 1,
+    "no-multiple-empty-lines": 1,
+    "new-cap": 0,
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "all",
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "never"
+      }
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": ["__EMBED__", "__THEME__"]
+      }
+    ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "multiline-block-like",
+        "next": "multiline-block-like"
+      },
+      {
+        "blankLine": "always",
+        "prev": "multiline-expression",
+        "next": "multiline-expression"
+      }
+    ]
+  }
+}
