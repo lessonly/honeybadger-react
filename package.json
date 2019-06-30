@@ -3,8 +3,8 @@
   "engines": {
     "node": ">=10.9.0"
   },
-  "version": "1.0.4",
-  "description": "React library support for Honeybadger.io",
+  "version": "1.0.5",
+  "description": "DEPRECATED",
   "main": "lib/index.js",
   "scripts": {
     "dev": "concurrently \"npm run lib:watch\" \"npm run docs\"",

@@ -1,3 +1,4 @@
+console.error("This package is deprecated in favor of the offical implementation!")
 import React, { Component } from 'react';
 
 export const formatComponentStack = str => {
